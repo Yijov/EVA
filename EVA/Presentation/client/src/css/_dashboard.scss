@@ -1,0 +1,30 @@
+.dashboard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 95.5%;
+  top: 0;
+  & .projectList {
+    color: $WhiteText;
+    margin-right: 5rem;
+    font-size: 1.1rem;
+    & h2 {
+      font-size: 2rem;
+    }
+    & .ProjectListItem {
+      cursor: pointer;
+      margin: 0.5rem;
+      background: $SecundaryColor;
+      padding: 0.6rem;
+      box-shadow: 1px 1px 8px lightgray;
+      transition: 200ms;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: none;
+      }
+    }
+  }
+}
+//the image style is defined in the component

@@ -1,0 +1,61 @@
+//imports
+@import "variables";
+@import "header";
+@import "dashboard";
+@import "navBar";
+@import "project";
+@import "pageTransitions";
+@import "planer";
+@import "budgetPage";
+@import "instructions";
+@import "about";
+@import "notFound";
+@import "login";
+
+// Body resets
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue,
+    sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+// Positioning the elements on top of each other during transition
+.page {
+  position: absolute;
+  height: 100%;
+  top: 2rem;
+  left: 3.6rem;
+  right: 0;
+  text-decoration: none;
+  // background: $softBackgound;
+
+  li {
+    list-style: none;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+  }
+}
+.sectionName {
+  height: 1.9rem;
+  font-size: 1.1rem;
+  color: $WhiteText;
+  background: $SecundaryColor;
+  font-weight: 280;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.information {
+  width: 45%;
+  margin: auto;
+  margin-top: 10rem;
+  border: 3px solid $PrimaryColor;
+  text-align: justify;
+  font-size: 1.3rem;
+  padding: 1rem;
+  & p {
+    color: $PrimaryColor;
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+#notFound {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  padding: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: $PrimaryColor;
+  color: $WhiteText;
+  margin: auto;
+  margin-top: 10%;
+  height: 40vh;
+  width: 50vw;
+}
