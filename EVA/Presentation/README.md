@@ -1,6 +1,6 @@
 # EVA
 
-# Business Projects Evaluator
+# Business Projects Evaluation Tool
 
 - [x] ASP.NET CORE
 - [x] SQL Server
