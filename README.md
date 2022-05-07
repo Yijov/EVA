@@ -20,4 +20,5 @@ Yuo get all of your projects indicators like:
 ![sample](./EVA/Presentation/images/image3.png "sample")
 ![sample](./EVA/Presentation/images/image4.png "sample")
 ![sample](./EVA/Presentation/images/imag5.png "sample")
+![sample](./EVA/Presentation/images/image7.png "sample")
 ![sample](./EVA/Presentation/images/image6.png "sample")
